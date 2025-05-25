@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Magra&display=swap');
+
+body {
+  font-family: "Magra";
+}
+
+#main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: colum;
+  min-height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-title {
+  font-size: 36px;
+  margin: 20px;
+}
+
+.form-button {
+  width: 100%;
+  max-width: 314px;
+  height: 86px;
+  background: #993399;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  font-size: 36px;
+}

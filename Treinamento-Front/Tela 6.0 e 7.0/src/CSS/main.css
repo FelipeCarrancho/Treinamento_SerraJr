@@ -1,0 +1,54 @@
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0px;
+}
+
+header{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+  background-color: rgb(54, 234, 244);
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+}
+
+button {
+  width: 10%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.add{
+  border-radius: 5px;
+  height: 50px;
+  width: 67%;
+  border: none;
+  background-color: rgb(54, 234, 244);
+  margin-top: 10px;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+h3 {
+  margin: 0px;
+}
+
+footer{ 
+  height: 65px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(54, 234, 244);
+}

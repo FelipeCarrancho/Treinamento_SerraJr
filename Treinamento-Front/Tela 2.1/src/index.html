@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/main.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Magra:wght@700&display=swap" rel="stylesheet"/>
+    <title>Serra Calculator</title>
+  </head>
+  <body>
+    <section id="main-section">
+      <h1 class="title-form">Serra Calculator</h1>
+      <div class="global-theme">
+        <div class="add-sub">
+          <div class="main-theme">
+            <h1 class="global-title">Soma</h1>
+            <div class="class-title">
+              <div class="calculator">
+                <h1 class="num">Numero 1</h1>
+                <h1 class="num">Numero 2</h1>
+                <h1 class="num">Resultado</h1>
+              </div>
+              <div class="calculator-imput">
+                <input type="number" id="sum-number1" />
+                <input type="number" id="sum-number2" />
+                <input onkeyup="somar()" id="sumResult" />
+              </div>
+            </div>
+          </div>
+          <div class="main-theme">
+            <h1 class="global-title">Subtração</h1>
+            <div class="class-title">
+              <div class="calculator">
+                <h1 class="num">Numero 1</h1>
+                <h1 class="num">Numero 2</h1>
+                <h1 class="num">Resultado</h1>
+              </div>
+              <div class="calculator-imput">
+                <input type="number" id="sub-number1" />
+                <input type="number" id="sub-number2" />
+                <input onkeyup="subtrair()" id="subResult" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mult-division">
+          <div class="main-theme">
+            <h1 class="global-title">Multiplicação</h1>
+            <div class="class-title">
+              <div class="calculator">
+                <h1 class="num">Numero 1</h1>
+                <h1 class="num">Numero 2</h1>
+                <h1 class="num">Resultado</h1>
+              </div>
+              <div class="calculator-imput">
+                <input type="number" id="multn1" />
+                <input type="number" id="multn2" />
+                <input onkeyup="multiplicar()" id="multResult" />
+              </div>
+            </div>
+          </div>
+          <div class="main-theme">
+            <h1 class="global-title">Divisão</h1>
+            <div class="class-title">
+              <div class="calculator">
+                <h1 class="num">Numero 1</h1>
+                <h1 class="num">Numero 2</h1>
+                <h1 class="num">Resultado</h1>
+              </div>
+              <div class="calculator-imput">
+                <input type="number" id="division-number1" />
+                <input type="number" id="division-number2" />
+                <input onkeyup="dividir()" id="divisionResult" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
